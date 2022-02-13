@@ -35,11 +35,3 @@ class PlacesDataStore:
     def find_all_places(self) -> []:
         return list(self.__data.values())
 
-    def filter(self, _filter_func: bool) -> [Places]:
-        _filtered = []
-        for s in self.__data.values():
-            if _filter_func(s):
-                _filtered.append(s)
-        # shorter with build-in filter() function, list() converts filtered-object to list[]
-        # _filtered = list(filter(_filter_func, self.__data.values()))
-        return _filtered
