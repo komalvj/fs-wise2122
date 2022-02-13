@@ -16,13 +16,13 @@ class PlacesDataStore:
     def add_place(self, _place: Places):
         self.__data[_place.get_sku()] = _place
 
-    def remove_place(self, _place_id: int):
+    def remove_place(self, _place_id: str):
         self.__data.pop(_place_id, None)  # remove key from dict, return object if key existed or None otherwise
 
     def size(self) -> int:
         return len(self.__data)
 
-    def find_place_by_id(self, _id: int) -> Places:
+    def find_place_by_id(self, _id: str) -> Places:
         return self.__data.get(_id)  # get(key) returns None if key is not found
 
     def find_places_by_day(self, _day: str) -> []:
