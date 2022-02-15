@@ -1,5 +1,9 @@
 # fs-wise2122
-Fortgeschrittene Softwaretechnik (WiSe2122) Exercise
+**Fortgeschrittene Softwaretechnik (WiSe2122) Exercise**
+
+This repository contains 3 projects: **TripPlanner(Main, Python), gradle_demo(Java), TestFastAPIProject(Python)**.
+
+**Trip Planner** is a itinerary search application to get itinerary of trip to Berlin depending on the number of days planned.
 
 1. Git is a version control and source code management system used to track changes in the set of files used in a particular project. For the purpose of my project I have used the internet hosted version of Git, i.e. GitHub. With GitHub, you can directly update the uploaded files in the editor online and commit the changes.
 The following steps were followed in creation of the repository "fs-wise2122":
@@ -35,6 +39,7 @@ The following steps were followed in creation of the repository "fs-wise2122":
    - Sonarcube -  Detect bugs, code smells, security hotspots and vulnerabilities in the source code
                -  Instead of setting up sonarqube locally, we used sonarcloud which connected to our project repository through just GitHub login.
                -  https://sonarcloud.io/project/overview?id=komalvj_fs-wise2122 : The initial scan of the project detected 2 code smells. After a minor code fix or                   removing unused method from the source code, this was reduced to one code smell. 
+   - PyCharm – Cross-platform Python IDE with code inspections available for analyzing code on-the-fly in the editor and bulk analysis of the whole project.
    
 5. Clean Code Development
    - Line/Block comments are used wherever necessary. They explain the code better.
