@@ -25,6 +25,11 @@ The following steps were followed in creation of the repository "fs-wise2122":
 3. DDD
    - TripPlanner uses Singleton and Factory design pattern.
      DataFactory.py loads the data from sample_places.py at the start of the program and stores it into data dictionary. Only single instance of the factory is          created and checked for while loading the objects. The dictionary of Places.py object, acts like a factory to fetch the places as required.
+   - TestFastAPIProject is a RESTful service developed using FASTAPI(web app framework for developing RESTful APIs in Python).
+     ![image](https://user-images.githubusercontent.com/92526578/154099461-f3aa5418-da38-44be-8f32-88c2535c3263.png)
+     
+     ![image](https://user-images.githubusercontent.com/92526578/154100927-5db9d305-d5f5-48b9-a126-c2c9afb765a5.png)
+
      
 4. Metrics
    - Sonarcube -  Detect bugs, code smells, security hotspots and vulnerabilities in the source code
@@ -32,6 +37,15 @@ The following steps were followed in creation of the repository "fs-wise2122":
                -  https://sonarcloud.io/project/overview?id=komalvj_fs-wise2122 : The initial scan of the project detected 2 code smells. After a minor code fix or                   removing unused method from the source code, this was reduced to one code smell. 
    
 5. Clean Code Development
+   - Line/Block comments are used wherever necessary. They explain the code better.
+     ![image](https://user-images.githubusercontent.com/92526578/154102097-006989be-b05a-4cc0-b4a2-99ec43238faa.png)
+
+   - All the variables are given relevant and self explanatory names. 
+     ![image](https://user-images.githubusercontent.com/92526578/154102583-f1e91493-f3f1-4748-a740-59f2c8365ad6.png)
+
+   - Functions are named appropiately as per what they do, the number of parameters passed are minimum or based on requirement.
+   - Functions and variable names are not repeated.
+   - Side effect free functions are used mostly to keep the application stateless.
 
 6. Build Management
    As Python really does not need any Build Management tool, in order to understand a build management tool called Gradle, a small demo project called "gradle_demo"    was developed in Java. A simple Hello World program is built and ran using CLI.
@@ -59,13 +73,30 @@ The following steps were followed in creation of the repository "fs-wise2122":
 10. DSL
     Groovy is a build script DSL used by gradle. Build script used by gradle(groovy based) for building the Java application "gradle_demo" 
       ![image](https://user-images.githubusercontent.com/92526578/154009907-de80020e-afed-4d1e-9fc3-8eaedbe137a0.png)
+      
+    UML can also be comsidered as a DSL used for modeling the application.
 
 11. Functional Programming
     only final data structures
+    
+    ![image](https://user-images.githubusercontent.com/92526578/154105226-c2644a92-8e45-4eef-b601-a27c568413a5.png)
+
     (mostly) side effect free functions
+    
+    ![image](https://user-images.githubusercontent.com/92526578/154105534-9c687cae-a926-4f0c-8736-bae1ca111919.png)
+
     the use of higher-order functions
+    
+    ![image](https://user-images.githubusercontent.com/92526578/154108032-c56a5c23-dec2-4a4e-8e90-a7225c884b4e.png)
+    
     functions as parameters and return values
+    
+    ![image](https://user-images.githubusercontent.com/92526578/154105642-c47d6450-50d7-4789-824e-486aff4725dc.png)
+
     use closures / anonymous functions
+    
+    ![image](https://user-images.githubusercontent.com/92526578/154104914-c8441958-e7b9-4e30-8dc2-c5f5eba21ce0.png)
+
 
 
 
