@@ -55,7 +55,11 @@ The following steps were followed in creation of the repository "fs-wise2122":
 
    
 7. Unit-Tests
-   An inbuilt test package is included in the application when creating the application. This is a basic assert statement confirming that the Hello World message is    printed without throwing any exceptions. 
+   An inbuilt test package is included in the application when creating the application. This is a basic assert statement confirming that the Hello World message      is printed without throwing any exceptions.
+   The result for this test is published as a report at gradle_demo/app/build/reports/tests/test/index.html
+   
+   ![image](https://user-images.githubusercontent.com/92526578/154111356-ff682d78-50cb-4c29-b737-1974fdbf78c3.png)
+
 
 8. Continuous Integration/Continuous Delivery
    GitHub Actions enables us to set up "CI" workflow for the repository. Any changes in the files, automatically triggers the workflow and new files are committed.
